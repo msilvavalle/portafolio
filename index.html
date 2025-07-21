@@ -10,9 +10,24 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
-
 </head>
-<body>
+  <body data-bs-spy="scroll" data-bs-target="#goTop" data-bs-offset="80" tabindex="0">
+    <div id="topbar" class="topbar"></div>
+  <nav class="navbar navbar-expand-lg nav-es navbar-dark fixed-top">
+  <div class="container-fluid">
+    <!-- Barra superior-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav nav-tabs">
+        <li class="nav-item"><a class="nav-link" href="./index.html" style="color: #ffffff;">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#proyectos"style="color: #ffffff;">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#habilidades"style="color: #ffffff;">Habilidades</a></li>
+      </ul>
+    </div>
+</nav>
   <!-- INICIO -->
   <section class="hero d-flex justify-content-between align-items-center p-5">
     <div>
@@ -39,7 +54,7 @@
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <img src="./img/n1.avif" class="card-img-top" alt="Landing Page">
-            <a href="./landing/landing/index.html">ver</a>
+            <a href="./landing/landing/index.html" style="text-align: center;">ver</a>
             <div class="card-body">
               <h5 class="card-title">Landing Page</h5>
               <p class="card-text">Página moderna con diseño responsive usando Flexbox.</p>
@@ -51,7 +66,7 @@
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <img src="./img/2bootstrap.jpg" class="card-img-top" alt="Bootstrap">
-            <a href="./Bootstrap/index.html">ver</a>
+            <a href="./Bootstrap/index.html" style="text-align: center;">ver</a>
             <div class="card-body">
               <h5 class="card-title">Diseño con Bootstrap</h5>
               <p class="card-text">Componentes visuales con Bootstrap 5 para sitios atractivos.</p>
@@ -64,7 +79,7 @@
         <div class="col-md-4 mb-4">
             <div class="card h-100">
               <img src="./img/3.Flexbox" class="card-img-top" alt="Bootstrap">
-              <a href="./contenido con Flex/Iguana page/index.html">ver</a>
+              <a href="./contenido con Flex/Iguana page/index.html" style="text-align: center;">ver</a>
               <div class="card-body">
                 <h5 class="card-title">Diseño Flex</h5>
                 <p class="card-text">Diseño responsivo usando Flexbox para organizar contenido de forma adaptable y moderna..</p>
@@ -78,7 +93,7 @@
         <div class="col-md-4 mb-4">
           <div class="card h-100">
             <img src="./img/foto de git.jpg" class="card-img-top" alt="GitHub">
-            <a href="./micv-main/index.html">ver</a>
+            <a href="./micv-main/index.html" style="text-align: center;">ver</a>
             <div class="card-body">
               <h5 class="card-title">Proyecto en GitHub</h5>
               <p class="card-text">Versionado del código usando Git y despliegue en GitHub Pages.</p>
@@ -213,5 +228,8 @@
       </a>
     </div>
   </footer>
-  <!--mejorando oooo-->
+  </div>
+  </body>
+</html>
+
   

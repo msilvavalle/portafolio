@@ -1,6 +1,17 @@
 body {
     font-family: 'Segoe UI', sans-serif;
   }
+
+  .nav-es {
+  background-color: #1e3c72; 
+  }
+
+
+
+.topbar {
+  background-color: #1e3c72, ;
+  height: 30px;
+}
   
   .hero {
     background: linear-gradient(to right, #1e3c72, #2a5298);
@@ -11,7 +22,7 @@ body {
     height: 200px;
     object-fit: cover;
   }
-  
+
   .contacto {
     text-align: center;
   }
