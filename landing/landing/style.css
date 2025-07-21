@@ -1,0 +1,9 @@
+.contenedor-centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    text-align: center;
+    style ="text-align: center;background-size: cover; padding: 20px; color: rgb(71, 21, 136);">
+  }
